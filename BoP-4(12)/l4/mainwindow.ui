@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1038</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="3">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="text">
+       <string>Отсортировать</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>Сохранить в *.txt</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" rowspan="2" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <property name="placeholderText">
+       <string>Позиция в рейтинге</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="5" rowspan="2">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="text">
+       <string>Создать отчет</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QComboBox" name="comboBox_2">
+      <item>
+       <property name="text">
+        <string>По Исполнителю</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>По исполнителю(-)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>По Названию</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>По Названию(-)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>По позиции</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>По позиции(-)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>По месяцу</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>По месяцу(-)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>По году</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>По году(-)</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="5" rowspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Меню</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0" colspan="6">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="dragEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="sortingEnabled">
+       <bool>false</bool>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>165</number>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Исполнитель</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Название</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Позиция в рейтинге</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Месяц выхода</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Год выхода</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Статус хита</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Удалить музыкальное произведение</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="text">
+       <string>Загрузить из *.dat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="text">
+       <string>Сохранить в *.dat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>                    по номеру</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4" rowspan="3">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2" rowspan="2">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="text">
+       <string>Редактировать</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Исполнитель</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2" rowspan="2">
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Исполнитель</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Название</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Позиция</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Месяц</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Год</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="2" rowspan="2">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>       Редактирование   </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2" rowspan="2">
+     <widget class="QSpinBox" name="spinBox_2"/>
+    </item>
+    <item row="0" column="3" rowspan="2">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>      Сортировка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="5" rowspan="2">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>Загрузить из *.txt</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="placeholderText">
+       <string>Год</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="placeholderText">
+       <string>Месяц</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="lineEdit_6"/>
+    </item>
+    <item row="0" column="0" rowspan="2" colspan="2">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Добавить музыкальное произведение</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" rowspan="2" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Название</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4" rowspan="3">
+     <widget class="QSpinBox" name="spinBox"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1038</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
